@@ -13,7 +13,7 @@ $ terraform plan
 $ terraform apply
 
 
-The zip containers the terraform.tf, and the values for wordpress and mysql-galera chart.
+The zip contains the terraform.tf, and the values for wordpress and mysql-galera chart.
 
 # The password is random generated and the output is printed on the end of deploy.
 
