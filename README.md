@@ -2,7 +2,7 @@
 
 This zip can be used to deploy a wordpress instance with a mysql-galera cluster on kubernetes using terraform.
 
-First of all install terraform on your computer and minikube
+First of all install terraform on your computer, minikube and helm.
 
 After that you can 
 
@@ -12,6 +12,8 @@ $ terraform plan
 
 $ terraform apply
 
+
+The zip containers the terraform.tf, and the values for wordpress and mysql-galera chart.
 
 # The password is random generated and the output is printed on the end of deploy.
 
